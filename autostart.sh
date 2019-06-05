@@ -54,10 +54,11 @@ printf "${BWhite}@/usr/bin/chromium-browser --window-size=640,320 --window-posit
 
 printf "\n\n"
 
-exit
+#exit
 sleep 5
 
-sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
+sudo nano ~/.config/lxsession/LXDE-pi/autostart
+# sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 
 printf "\n"
-print "Done..\n\n"
+printf "Done..\n\n"
